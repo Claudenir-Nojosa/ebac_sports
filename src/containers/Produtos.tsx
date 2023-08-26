@@ -4,7 +4,7 @@ import Produto from '../components/Produto'
 
 import * as S from './styles'
 import { RootReducer } from '../store'
-import { useGetProdutosQuery } from '../services/api'
+import { useGetProdutosQuery } from '../util/api'
 
 const ProdutosComponent = () => {
   const { data: produtos, isLoading } = useGetProdutosQuery()

@@ -2,7 +2,7 @@ import { configureStore } from '@reduxjs/toolkit'
 import carrinhoReducer from './reducers/cart'
 import favoritosReducer from './reducers/favorites'
 
-import api from '../services/api'
+import api from '../util/api'
 
 export const store = configureStore({
   reducer: {
